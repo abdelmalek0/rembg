@@ -60,12 +60,12 @@ curl -s http://input.png | rembg i > output.png
 
 Remove the background from a local file
 ```bash
-rembg i path/to/input.png path/to/output.png
+rembg path/to/input.png -o path/to/output.png
 ```
 
 Remove the background from all images in a folder
 ```bash
-rembg p path/to/input path/to/output
+rembg -p path/to/input path/to/output
 ```
 
 ### Usage as a server
